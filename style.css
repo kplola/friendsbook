@@ -1,0 +1,76 @@
+
+/* my css*/
+body{
+    padding-top: 300px;
+    padding-bottom: 50px;
+    height: 1024px;
+
+}
+.heart{
+    color: white;
+}
+
+header, footer {
+    width: 100%;
+    padding-left: 0;
+    margin-left:0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    position: fixed;
+    
+}
+header {
+    background-color: #666666;
+    font-size: 45px;
+    font-style: bold;
+    padding: 25px 0;
+    top: 0;
+}
+
+footer {
+    background-color: #777777;
+    padding: 20px 0;
+    bottom: 0;
+}
+
+form, input, h2, li {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 7px 50px; 
+}
+.filter {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding: 5px 50px; 
+    margin: 10px;
+}
+.button1 {
+    background-color: white;
+    font-size: 16px;
+    font-style: bold;
+    padding: 7px 32px;
+    text-align: center;
+    color: forestgreen;
+    border: 2px solid forestgreen; /* Green */
+  }
+.button1:hover {
+    background-color:  forestgreen;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    font-size: 12px;
+    font-style: bold;
+    padding: 5px 22px;
+    text-align: center;
+    color: indianred;
+    border: 2px solid indianred; /* Green */
+}
+.button2:hover {
+    background-color:  indianred;
+    color: white;
+}
